@@ -1,0 +1,132 @@
+.kua{
+    top: 10px;
+    display: flex;
+    width: 1000%;
+    height: 20%;
+    justify-content: center;
+}
+
+.Navigation {
+    position: relative;
+    width: 800px;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+nav {
+    background: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+}
+nav .u1 .l1 {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 13px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+    z-index: 2;
+    transition: color 0.5s;
+}
+nav .u1 .l1::after {
+    content: '';
+    background: #f44566;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s,opacity 0.5s;//出现速度
+}
+nav .u1 .l1:hover{
+    color: #fff;
+}
+nav .u1 .l1:hover::after{
+    top: 50%;
+    opacity: 1;
+}
+.kua1{
+    position: absolute;
+    top: 120px;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10%;
+}
+#max{
+    width: 800px;
+    height: 500px;
+    align-items: center;
+
+}
+.re{
+    position: relative;
+    height: 400px;
+}
+.re .u2{
+    list-style-type:none ;
+}
+.re .u2>.l2{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+
+    transition: 1s;
+    opacity: 0;
+}
+.re .u2>.l2 img{
+    width: 800px;
+    height: 500px;
+    border-radius: 10%;
+    border: 15px solid #fffbd6;
+}
+#max .o1 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5,75px);
+    grid-template-rows: auto;
+    grid-gap: 1em;gap: 1em;
+    float: right;
+    margin-top: 450px;
+    list-style: none;
+    top:0;left:0;
+}
+#max .o1 .l2 {
+    width: 25px;
+    height: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    float: left;
+    text-align: center;
+    border-radius: 2em;
+    border: 5px solid #999999;
+}
+
+.bottom {
+    right:0px;
+    bottom:0px;
+    background: deepskyblue;
+    color:#fff;
+    border-radius: 20px 20px;
+    position: relative;
+    top: 35px;
+    width:100%;
+    text-align:center;
+    z-index: 10;
+    height: 100px;
+}
+.bottom span {
+    position:relative;
+    display:block;
+    left:0;
+    font-family: fantasy;
+}
