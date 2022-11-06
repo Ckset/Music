@@ -204,21 +204,22 @@
     background: white;
 }
 .prev2{
-    background: url("ING/img/next.jpg") no-repeat center center;
-    background-size: 20px;
+    background: url("ING/img/n.png") no-repeat center center;
+    background-size: 40px;
 }
 .play2{
-    background: url("/ING/img/16912.svg") no-repeat center center;
-    background-size: 15px;
+    background: url("ING/img/t.png") no-repeat center center;
+    background-size: 40px;
 }
+
 .next2{
-    background: url("/ING/img/16913.svg") no-repeat center center;
-    background-size: 20px;
+    background: url("ING/img/p.jpg") no-repeat center center;
+    background-size: 40px;
 }
 /*播放时*/
 .control2.active .play2{
-    background: url("/ING/img/16915.svg") no-repeat center center;
-    background-size: 20px;
+    background: url("ING/img/play.png") no-repeat center center;
+    background-size: 40px;
 }
 .info2{
     opacity: 0;
@@ -305,4 +306,5 @@
 .content2{
     position: relative;
 }
+
 
