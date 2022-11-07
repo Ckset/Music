@@ -468,13 +468,13 @@
                 if (index == -1) {
                     return;
                 }
-                /*let lrc_li_height = 35, lrc_ul_height = 570;//定义行高和歌词box高度
+                let lrc_li_height = 35, lrc_ul_height = 570;//定义行高和歌词box高度
                 let top = index * lrc_li_height + lrc_li_height / 2 - lrc_ul_height / 2;//计算
                 if (top < 0) {
                     top = 0;//如果top为负说明歌词在开始几句,无需滚动,top归零
                 }
 
-                 */
+               
                 $("ullrc").style.marginTop = -top + "px";//改变mt
                 let activeLi = $("ullrc").querySelector(".active");//寻找ul下类名为active的元素并返回之
                 if(activeLi){
